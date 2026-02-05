@@ -11,41 +11,8 @@ An optical fiber can be represented approximately by a linear system with an imp
 
 If the optical source has a spectral width much greater than the signal bandwidth (e.g., the source is a directly modulated laser diode) and the operating wavelength is far from the zero-dispersion wavelength, then \(H(j\omega)\) is approximately Gaussian:
 
-<img width="410" height="76" alt="image" src="https://github.com/user-attachments/assets/ef92c0e2-ad7b-4f0f-9c2e-bd9920cda083" />
+<img width="1482" height="1120" alt="image" src="https://github.com/user-attachments/assets/83f63473-b1b3-4afc-ad17-9e9850041cae" />
 
-
-where \(T_F\) is the RMS width of the impulse response, given approximately by:
-
-\[
-T_F = D(\lambda) \cdot L \cdot \Delta \lambda
-\]
-
-- \(L\): fiber length  
-- \(D(\lambda)\): fiber dispersion coefficient  
-- \(\Delta \lambda\): RMS spectral width of the optical source  
-
----
-
-### Chirped Gaussian Pulse
-A chirped Gaussian pulse can represent the output of a directly modulated laser diode. It is characterized by:
-- RMS pulse width: \(T_{in}\)  
-- Chirp factor: \(C\)  
-
-The RMS pulse width relates to the FWHM pulse width:
-
-\[
-T_{in} = \frac{T_{FWHM}}{1.665}
-\]
-
-The RMS spectral width of the pulse is:
-
-\[
-\Delta \lambda = \frac{\lambda^2}{\pi c T_{in}} \sqrt{1 + C^2}
-\]
-
-where:
-- \(\lambda\): operating wavelength  
-- \(c\): speed of light  
 
 ---
 
